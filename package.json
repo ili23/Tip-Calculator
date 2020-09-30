@@ -19,7 +19,8 @@
   "homepage": "https://github.com/ili23/Template-apcsp#readme",
   "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.11"
   },
   "keywords": []
 }

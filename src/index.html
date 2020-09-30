@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
     <title>Document</title>
 </head>
 <body>
+    <section class="container">
+        <h1>Tip Calculator</h1>
+        <form id="tip-form">
+            <textarea class="form-text" placeholder="Enter Bill Amount" id="bill-amount" cols="30" rows="10"></textarea>
+            <textarea class="form-text" placeholder="Enter Tip Percentage" id="tip-amount" cols="30" rows="10"></textarea>
+        </form>
+        <input type="submit" value="Submit" class="submit">
+    </section>
+
+    <h2 id='final-tip'>BRUH</h2>
     <script src="app.js"></script>
     <link rel="stylesheet" href="style.scss">
 </body>
